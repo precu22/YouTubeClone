@@ -1,7 +1,8 @@
 //03/08 morning
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5500/api' });
+// const API = axios.create({ baseURL: 'http://localhost:5500/api' });
+const API = axios.create({ baseURL: 'https://youtubeclone-2-5apa.onrender.com' });
 
 API.interceptors.request.use(
   (req) => {
